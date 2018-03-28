@@ -1,0 +1,7 @@
+{
+  "name": "polymer-starcounter",
+  "short_name": "polymer-starcounter",
+  "description": "Juicy-tooltip for Starcounter",
+  "start_url": "/",
+  "display": "standalone"
+}

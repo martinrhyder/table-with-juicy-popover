@@ -1,0 +1,38 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/granite-bootstrap/granite-bootstrap.html">
+
+<dom-module id="polymer-jumbotron">
+  <template>
+  	<style include="granite-bootstrap"></style>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <div class="jumbotron">
+	    <div class="container">
+	    	<h1 class="h1">[[title]]</h1>
+	    </div>
+    </div>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class PolymerJumbotron extends Polymer.Element {
+      static get is() { return 'polymer-jumbotron'; }
+      static get properties() {
+        return {
+          title: {
+            type: String,
+            value: 'Table with juicy-popover'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(PolymerJumbotron.is, PolymerJumbotron);
+  </script>
+</dom-module>

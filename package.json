@@ -1,0 +1,26 @@
+{
+  "name": "polymer-table",
+  "version": "1.0.0",
+  "description": "Table with juicy-popover",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinrhyder/table-with-juicy-popover.git"
+  },
+  "keywords": [
+    "table",
+    "juicy-popover"
+  ],
+  "author": "Martin Erlandsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martinrhyder/table-with-juicy-popover/issues"
+  },
+  "homepage": "https://github.com/martinrhyder/table-with-juicy-popover#readme"
+}
